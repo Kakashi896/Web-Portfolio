@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+    height: 40%;
+    width: 100%;
+    
+}
+.intro h1{
+    letter-spacing: 2px;
+    line-height: 110px;
+    font-size: 90px;
+    font-weight:900;
+}
+.menu img{
+position: fixed;
+right: 90px;
+}
+#menu{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: fixed;
+}
+.hero-image{
+    height: 90%;
+    width: 100%;
+    background-image: url(https://s4.tenten.co/Screenshot-2023-12-17-at-1.31.21%E2%80%AFPM.jpg);
+    background-size: cover;
+    background-position-x:center;
+}
+.about, .what-i-do, .work, .job{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.handels{
+  position: relative;
+  display: inline-flex;
+  top: 20%;
+  gap: 20px;
+  left: 1%;
+  /* background-color: antiquewhite;4 */
+}
+.vertical{
+    width: 0%;
+    height: 65%;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.vertical1{
+    width: 0%;
+    height: 65%;
+    border: 1px solid black;
+    margin: auto;
+}
+.vertical3{
+    width: 0%;
+    height: 70%;
+    margin: 20px;
+    border: 1px solid black;
+}
+.horizontal{
+    width: 95%;
+    border: 1px solid black;
+    height: 0%;
+    margin-left: 25px;
+}
+.about h1{
+    font-family:  sans-serif;
+    line-height: 60px;
+    font-size: 50px;
+    font-weight:500;
+    padding: 50px 50px;
+}
+.what-i-do h3{
+    padding: 50px 100px;
+    height: 60%;
+}
+.content{
+    display: flex;
+    height: 90%;
+    width: 70%;
+    flex-direction: column;
+}
+.row1{
+    display: inline-flex;
+    height: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 60%;
+}
+.one, .two, .three, .four{
+    width: 50%;
+    text-align: center;
+}
+.one p, .two p, .three p, .four p{
+    color: rgb(49, 49, 49);
+    font-family: sans-serif;
+}
+
+
+
+
+
+.work h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    margin-top: -400px;
+}
+.start h1{
+    font-size: 160px;
+    font-weight: 100;
+    position: absolute;
+    font-weight: 200;
+    width: 100%;
+    text-align: center;
+}
+.start img {
+    height: 430px;
+    width: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+    position: absolute;
+    transform-origin: center;
+   
+}
+.img1 {
+    transform: translate(-0%, -0%) rotate(-30deg) !important;
+}
+.img2 {
+    transform: translate(-0%, -0%) rotate(-20deg) !important;
+}
+.img3 {
+    transform: translate(-0%, -0%) rotate(-10deg) !important;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Glass effect */
+    overflow-x: hidden;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar-content {
+    position: relative;
+    top: 20%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sidebar-content a:hover {
+    color: #ff6f61;
+}
+
+button#menu:hover {
+    background-color: #444;
+}
+
+/* Section Styles */
+section {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
